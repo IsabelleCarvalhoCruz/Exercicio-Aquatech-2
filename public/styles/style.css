@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --azul: #32b9cd;
+    --amarelo: #e3b062;
+}
+
+/* HEADER */
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid var(--azul);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.titulo{
+    color: var(--azul)
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: var(--amarelo);
+    list-style: none;
+    width: 300px;
+}
+
+.navbar a{
+    color: var(--amarelo);
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: bolder;
+}
+
+/* BANNER */
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.banner .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p{
+    width: 170px;
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.banner .container span{
+    font-weight: bolder;
+}
+
+/* MISSÃO VISÃO VALORES */
+
+.social{
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box img{
+    width: 120px;
+    height: 120px;
+}
+
+.box h4{
+    margin: 0;
+    margin-top: 10px;
+    color: #e4005A;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: var(--azul);
+}
+
+.footer .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer h4{
+    margin-bottom: 0;
+}
+
+/* LOGIN E CADASTRO */
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.login .container{
+    background-color: #dcdcdc;
+    color: #e4005A;
+    padding: 0px 90px 10px;
+    border-radius: 10px; 
+}
+.login .container .card h2{
+    opacity: 80%;
+    margin-left: 110px;
+}
+
+.login .container .formulario .campo{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.login .container .formulario span{
+   font-weight: bolder;
+   opacity: 80%;
+}
+
+.formulario .campo #codigo_input{
+    background-color: white;
+    color: gray;
+    border-style: double;
+    border-color: #32b9cd;
+    border-radius: 10px;
+    padding: 10px 100px 10px;
+}
+.formulario .campo #nome_input{
+    background-color: white;
+    color: gray;
+    border-style: double;
+    border-color: #32b9cd;
+    border-radius: 10px;
+    padding: 10px 100px 10px;
+}
+
+.formulario .campo #email_input{
+    background-color: white;
+    color: gray;
+    border-style: double;
+    border-color: #32b9cd;
+    border-radius: 10px;
+    padding: 10px 100px 10px;
+}
+
+.formulario .campo #senha_input{
+    background-color: white;
+    color: gray;
+    border-style: double;
+    border-color: #32b9cd;
+    border-radius: 10px;
+    padding: 10px 100px 10px;
+}
+
+.formulario .campo #confirmacao_senha_input{
+    background-color: white;
+    color: gray;
+    border-style: double;
+    border-color: #32b9cd;
+    border-radius: 10px;
+    padding: 10px 100px 10px;
+}
+
+.botao{
+    background-color: #e4005A;
+    color: #dcdcdc;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+
+
+
