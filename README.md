@@ -1,6 +1,6 @@
 # Aula: Aquatech
 # Anotações: 
-**1.** `:hover` --> indica umm 'quando' dentro de uma tag css, exemplo: 'quando o usuário clicar muda a cor' 
+**1.** `:hover` --> indica umm 'quando' dentro de uma tag css, exemplo: 'quando o usuário clicar muda a cor' <br>
 **2.** `:root` --> define variáveis no css 
 **3.** ul e li --> cria uma lista onde cada tag li cria uma linha no html 
 **4.** a href --> linka um arquivo dentro do html 
